@@ -274,3 +274,18 @@ TSWLatexianTemp*
 
 # Makeindex log files
 *.lpz
+problems/01/1.tex
+problems/01/scheme.png
+problems/02/2.tex
+problems/03/3.tex
+problems/05_06_sreg/05_06.pdf
+problems/05_06_sreg/05_06.tex
+problems/2021_last/05_06.pdf
+problems/2021_last/2021_last.pdf
+problems/2021_last/2021_last.tex
+problems/lab1/lab1.pdf
+problems/lab1/lab1.tex
+slides/01.pptx
+slides/02.pptx
+slides/03.pptx
+slides/04.pptx

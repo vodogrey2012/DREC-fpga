@@ -1,0 +1,54 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 0 0 224 128)
+	(text "abs" (rect 101 2 129 17)(font "Dialog" (font_size 10)))
+	(text "inst" (rect 8 114 25 124)(font "Arial" ))
+	(port
+		(pt 0 48)
+		(input)
+		(text "data[31..0]" (rect 0 0 74 13)(font "Dialog" (font_size 8)))
+		(text "data[31..0]" (rect 4 35 67 47)(font "Dialog" (font_size 8)))
+		(line (pt 0 48)(pt 80 48)(line_width 3))
+	)
+	(port
+		(pt 224 48)
+		(output)
+		(text "result[31..0]" (rect 0 0 81 13)(font "Dialog" (font_size 8)))
+		(text "result[31..0]" (rect 151 35 220 47)(font "Dialog" (font_size 8)))
+		(line (pt 224 48)(pt 144 48)(line_width 3))
+	)
+	(drawing
+		(text "Clock cycles: 0 " (rect 148 67 362 143)(font "Arial" ))
+		(text "Single Precision " (rect 142 83 351 175)(font "Arial" ))
+		(text "Exponent width: 8 " (rect 135 99 346 207)(font "Arial" ))
+		(text "Mantissa width: 23 " (rect 131 115 342 239)(font "Arial" ))
+		(line (pt 80 32)(pt 144 32))
+		(line (pt 144 32)(pt 144 64))
+		(line (pt 80 64)(pt 144 64))
+		(line (pt 80 32)(pt 80 64))
+		(line (pt 0 0)(pt 224 0))
+		(line (pt 224 0)(pt 224 128))
+		(line (pt 0 128)(pt 224 128))
+		(line (pt 0 0)(pt 0 128))
+	)
+)
