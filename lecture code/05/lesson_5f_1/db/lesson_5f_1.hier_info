@@ -1,0 +1,8 @@
+|lesson_5f_1
+clk => clk~buf0.DATAIN
+led1 <= led1.DB_MAX_OUTPUT_PORT_TYPE
+led2 <= led2.DB_MAX_OUTPUT_PORT_TYPE
+btn1 => btn1_sync[0].DATAIN
+btn2 => btn2_sync[0].DATAIN
+
+

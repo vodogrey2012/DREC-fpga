@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Oct  5 17:55:28 2021
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : lesson_5f_2
+Top-level Entity Name : lesson_5f_2
+Family : Cyclone IV E
+Device : EP4CE6E22C8
+Timing Models : Final
+Total logic elements : 1,807 / 6,272 ( 29 % )
+    Total combinational functions : 880 / 6,272 ( 14 % )
+    Dedicated logic registers : 1,538 / 6,272 ( 25 % )
+Total registers : 1538
+Total pins : 52 / 92 ( 57 % )
+Total virtual pins : 0
+Total memory bits : 176,128 / 276,480 ( 64 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

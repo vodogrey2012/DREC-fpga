@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy
+ date="2021.10.03.21:58:04"
+ outputDirectory="/home/yauheni/intelFPGA_lite/18.1/lesson_5f_1/loader/">
+ <perimeter>
+  <parameter
+     name="AUTO_GENERATION_ID"
+     type="Integer"
+     defaultValue="0"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_UNIQUE_ID"
+     type="String"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_FAMILY"
+     type="String"
+     defaultValue="Cyclone IV E"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE"
+     type="String"
+     defaultValue="EP4CE6E22C8"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_SPEEDGRADE"
+     type="String"
+     defaultValue="8"
+     onHdl="0"
+     affectsHdl="1" />
+  <interface name="noe_in" kind="conduit" start="0">
+   <property name="associatedClock" value="" />
+   <property name="associatedReset" value="" />
+   <port name="noe_in" direction="input" role="noe" width="1" />
+  </interface>
+ </perimeter>
+ <entity
+   path=""
+   parameterizationKey="loader:1.0:AUTO_DEVICE=EP4CE6E22C8,AUTO_DEVICE_FAMILY=Cyclone IV E,AUTO_DEVICE_SPEEDGRADE=8,AUTO_GENERATION_ID=1633283884,AUTO_UNIQUE_ID=(altera_serial_flash_loader:18.1:ENABLE_QUAD_SPI_SUPPORT=false,ENABLE_SHARED_ACCESS=OFF,ENHANCED_MODE=true,INTENDED_DEVICE_FAMILY=Cyclone IV E,NCSO_WIDTH=1,gui_shared_access=false)"
+   instancePathKey="loader"
+   kind="loader"
+   version="1.0"
+   name="loader">
+  <parameter name="AUTO_GENERATION_ID" value="1633283884" />
+  <parameter name="AUTO_DEVICE" value="EP4CE6E22C8" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV E" />
+  <parameter name="AUTO_UNIQUE_ID" value="" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="8" />
+  <generatedFiles>
+   <file
+       path="/home/yauheni/intelFPGA_lite/18.1/lesson_5f_1/loader/synthesis/loader.v"
+       type="VERILOG" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="/home/yauheni/intelFPGA_lite/18.1/lesson_5f_1/loader/synthesis/submodules/altera_serial_flash_loader.v"
+       type="VERILOG"
+       attributes="" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file path="/home/yauheni/intelFPGA_lite/18.1/lesson_5f_1/loader.qsys" />
+  </sourceFiles>
+  <childSourceFiles>
+   <file
+       path="/home/yauheni/intelFPGA_lite/18.1/ip/altera/altera_serial_flash_loader/altera_serial_flash_loader_hw.tcl" />
+  </childSourceFiles>
+  <messages>
+   <message level="Debug" culprit="loader">queue size: 0 starting:loader "loader"</message>
+   <message level="Progress" culprit="min"></message>
+   <message level="Progress" culprit="max"></message>
+   <message level="Progress" culprit="current"></message>
+   <message level="Debug">Transform: CustomInstructionTransform</message>
+   <message level="Debug">No custom instruction connections, skipping transform </message>
+   <message level="Debug" culprit="merlin_custom_instruction_transform"><![CDATA[After transform: <b>1</b> modules, <b>0</b> connections]]></message>
+   <message level="Debug">Transform: MMTransform</message>
+   <message level="Debug">Transform: InterruptMapperTransform</message>
+   <message level="Debug">Transform: InterruptSyncTransform</message>
+   <message level="Debug">Transform: InterruptFanoutTransform</message>
+   <message level="Debug">Transform: AvalonStreamingTransform</message>
+   <message level="Debug">Transform: ResetAdaptation</message>
+   <message level="Debug" culprit="loader"><![CDATA["<b>loader</b>" reuses <b>altera_serial_flash_loader</b> "<b>submodules/altera_serial_flash_loader</b>"]]></message>
+   <message level="Debug" culprit="loader">queue size: 0 starting:altera_serial_flash_loader "submodules/altera_serial_flash_loader"</message>
+   <message level="Info" culprit="serial_flash_loader_0">generating top-level entity altera_serial_flash_loader</message>
+   <message level="Info" culprit="serial_flash_loader_0"><![CDATA["<b>loader</b>" instantiated <b>altera_serial_flash_loader</b> "<b>serial_flash_loader_0</b>"]]></message>
+  </messages>
+ </entity>
+ <entity
+   path="submodules/"
+   parameterizationKey="altera_serial_flash_loader:18.1:ENABLE_QUAD_SPI_SUPPORT=false,ENABLE_SHARED_ACCESS=OFF,ENHANCED_MODE=true,INTENDED_DEVICE_FAMILY=Cyclone IV E,NCSO_WIDTH=1,gui_shared_access=false"
+   instancePathKey="loader:.:serial_flash_loader_0"
+   kind="altera_serial_flash_loader"
+   version="18.1"
+   name="altera_serial_flash_loader">
+  <parameter name="ENABLE_SHARED_ACCESS" value="OFF" />
+  <parameter name="ENABLE_QUAD_SPI_SUPPORT" value="false" />
+  <parameter name="ENHANCED_MODE" value="true" />
+  <parameter name="gui_shared_access" value="false" />
+  <parameter name="NCSO_WIDTH" value="1" />
+  <parameter name="INTENDED_DEVICE_FAMILY" value="Cyclone IV E" />
+  <generatedFiles>
+   <file
+       path="/home/yauheni/intelFPGA_lite/18.1/lesson_5f_1/loader/synthesis/submodules/altera_serial_flash_loader.v"
+       type="VERILOG"
+       attributes="" />
+  </generatedFiles>
+  <childGeneratedFiles/>
+  <sourceFiles>
+   <file
+       path="/home/yauheni/intelFPGA_lite/18.1/ip/altera/altera_serial_flash_loader/altera_serial_flash_loader_hw.tcl" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="loader" as="serial_flash_loader_0" />
+  <messages>
+   <message level="Debug" culprit="loader">queue size: 0 starting:altera_serial_flash_loader "submodules/altera_serial_flash_loader"</message>
+   <message level="Info" culprit="serial_flash_loader_0">generating top-level entity altera_serial_flash_loader</message>
+   <message level="Info" culprit="serial_flash_loader_0"><![CDATA["<b>loader</b>" instantiated <b>altera_serial_flash_loader</b> "<b>serial_flash_loader_0</b>"]]></message>
+  </messages>
+ </entity>
+</deploy>

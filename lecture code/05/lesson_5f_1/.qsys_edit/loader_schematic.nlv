@@ -1,0 +1,13 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst loader.serial_flash_loader_0 -pg 1 -lvl 1 -y 30
+preplace inst loader -pg 1 -lvl 1 -y 40 -regy -20
+preplace netloc EXPORT<net_container>loader</net_container>(SLAVE)loader.noe_in,(SLAVE)serial_flash_loader_0.noe_in) 1 0 1 NJ
+preplace netloc EXPORT<net_container>loader</net_container>(SLAVE)loader.asmi_access_request,(SLAVE)serial_flash_loader_0.asmi_access_request) 1 0 1 NJ
+preplace netloc EXPORT<net_container>loader</net_container>(SLAVE)serial_flash_loader_0.asmi_access_granted,(SLAVE)loader.asmi_access_granted) 1 0 1 NJ
+preplace netloc EXPORT<net_container>loader</net_container>(SLAVE)loader.data0_out,(SLAVE)serial_flash_loader_0.data0_out) 1 0 1 NJ
+preplace netloc EXPORT<net_container>loader</net_container>(SLAVE)loader.dclk_in,(SLAVE)serial_flash_loader_0.dclk_in) 1 0 1 NJ
+preplace netloc EXPORT<net_container>loader</net_container>(SLAVE)serial_flash_loader_0.ncso_in,(SLAVE)loader.ncso_in) 1 0 1 NJ
+preplace netloc EXPORT<net_container>loader</net_container>(SLAVE)serial_flash_loader_0.asdo_in,(SLAVE)loader.asdo_in) 1 0 1 NJ
+levelinfo -pg 1 0 130 340
+levelinfo -hier loader 140 170 330

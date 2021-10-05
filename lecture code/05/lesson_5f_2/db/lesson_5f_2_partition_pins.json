@@ -1,0 +1,189 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "DS_EN1",
+					"strict" : false
+				},
+				{
+					"name" : "DS_EN2",
+					"strict" : false
+				},
+				{
+					"name" : "DS_EN3",
+					"strict" : false
+				},
+				{
+					"name" : "DS_EN4",
+					"strict" : false
+				},
+				{
+					"name" : "DS_A",
+					"strict" : false
+				},
+				{
+					"name" : "DS_B",
+					"strict" : false
+				},
+				{
+					"name" : "DS_C",
+					"strict" : false
+				},
+				{
+					"name" : "DS_D",
+					"strict" : false
+				},
+				{
+					"name" : "DS_E",
+					"strict" : false
+				},
+				{
+					"name" : "DS_F",
+					"strict" : false
+				},
+				{
+					"name" : "DS_G",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_A9",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_A5",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_A4",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_A3",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_A2",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_A1",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_A0",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_RAS_N",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_CAS_N",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_WE_N",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_CLK",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ15",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ14",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ13",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ12",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ11",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ10",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ9",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ8",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ7",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ6",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ5",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ4",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ3",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ2",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ1",
+					"strict" : false
+				},
+				{
+					"name" : "SDRAM_DQ0",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "btn2",
+					"strict" : false
+				},
+				{
+					"name" : "btn1",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
