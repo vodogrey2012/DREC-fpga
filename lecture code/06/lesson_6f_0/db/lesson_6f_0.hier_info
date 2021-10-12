@@ -1,0 +1,58 @@
+|lesson_6f_0
+clk => clk.IN1
+din => u_cell0.DATAB
+DS_EN1 << seg7_controller:seg7_controller_inst.anodes
+DS_EN2 << seg7_controller:seg7_controller_inst.anodes
+DS_EN3 << seg7_controller:seg7_controller_inst.anodes
+DS_EN4 << seg7_controller:seg7_controller_inst.anodes
+DS_A << seg7_controller:seg7_controller_inst.segments
+DS_B << seg7_controller:seg7_controller_inst.segments
+DS_C << seg7_controller:seg7_controller_inst.segments
+DS_D << seg7_controller:seg7_controller_inst.segments
+DS_E << seg7_controller:seg7_controller_inst.segments
+DS_F << seg7_controller:seg7_controller_inst.segments
+DS_G << seg7_controller:seg7_controller_inst.segments
+
+
+|lesson_6f_0|seg7_controller:seg7_controller_inst
+clk => cnt[0].CLK
+clk => cnt[1].CLK
+clk => cnt[2].CLK
+clk => cnt[3].CLK
+clk => cnt[4].CLK
+clk => cnt[5].CLK
+clk => cnt[6].CLK
+clk => cnt[7].CLK
+clk => cnt[8].CLK
+clk => cnt[9].CLK
+clk => cnt[10].CLK
+clk => cnt[11].CLK
+data[0] => d[0].DATAB
+data[1] => d[1].DATAB
+data[2] => d[2].DATAB
+data[3] => d[3].DATAB
+data[4] => d.DATAB
+data[5] => d.DATAB
+data[6] => d.DATAB
+data[7] => d.DATAB
+data[8] => d.DATAB
+data[9] => d.DATAB
+data[10] => d.DATAB
+data[11] => d.DATAB
+data[12] => d.DATAA
+data[13] => d.DATAA
+data[14] => d.DATAA
+data[15] => d.DATAA
+anodes[0] <= ShiftLeft0.DB_MAX_OUTPUT_PORT_TYPE
+anodes[1] <= ShiftLeft0.DB_MAX_OUTPUT_PORT_TYPE
+anodes[2] <= ShiftLeft0.DB_MAX_OUTPUT_PORT_TYPE
+anodes[3] <= ShiftLeft0.DB_MAX_OUTPUT_PORT_TYPE
+segments[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+segments[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+segments[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+segments[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+segments[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+segments[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+segments[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
