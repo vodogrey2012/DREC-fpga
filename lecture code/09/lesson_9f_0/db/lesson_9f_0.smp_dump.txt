@@ -1,0 +1,7 @@
+
+State Machine - |lesson_9f_0|SM1:SM1_inst|fstate
+Name fstate.state4 fstate.state3 fstate.state2 fstate.state1 
+fstate.state1 0 0 0 0 
+fstate.state2 0 0 1 1 
+fstate.state3 0 1 0 1 
+fstate.state4 1 0 0 1 
