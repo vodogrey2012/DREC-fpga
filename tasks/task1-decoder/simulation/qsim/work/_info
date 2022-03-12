@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA/Intel_FPGA/MIPT/DREC-fpga/tasks/task1-decoder/simulation/qsim
+vhard_block
+Z1 !s110 1647040856
+!i10b 1
+!s100 T>UoDC9]B<:F3Y2CcAI;a3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IFSfj[A9idLa455??zLI381
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1647040854
+Z5 8top.vo
+Z6 Ftop.vo
+!i122 0
+L0 372 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1647040856.000000
+Z9 !s107 top.vo|
+Z10 !s90 -work|work|top.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vtop
+R1
+!i10b 1
+!s100 zlnJVzb]U0j2@=Q>^_QEo3
+R2
+I;UoT;D:EDbnIYgiQoJ]:K1
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 32 339
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vtop_vlg_vec_tst
+R1
+!i10b 1
+!s100 ;e1YC:RROYa69^=o8@IRK3
+R2
+IFLX>BMUEKWJC^1ZEF3L4]0
+R3
+R0
+w1647040853
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+!i122 1
+L0 30 82
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R11
+R12
