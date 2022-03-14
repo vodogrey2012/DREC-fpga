@@ -1,0 +1,14 @@
+Partition Merge Status : Successful - Sat Mar 12 16:47:30 2022
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : lesson4
+Top-level Entity Name : lesson4
+Family : Cyclone IV E
+Total logic elements : 630
+    Total combinational functions : 465
+    Dedicated logic registers : 452
+Total registers : 452
+Total pins : 2
+Total virtual pins : 0
+Total memory bits : 1,024
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
