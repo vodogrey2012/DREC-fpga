@@ -1,0 +1,13 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ro_o",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
