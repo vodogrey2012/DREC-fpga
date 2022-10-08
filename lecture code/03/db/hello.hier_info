@@ -1,0 +1,27 @@
+|hello
+clk => clk_div[0].CLK
+clk => clk_div[1].CLK
+clk => clk_div[2].CLK
+clk => clk_div[3].CLK
+clk => clk_div[4].CLK
+clk => clk_div[5].CLK
+clk => clk_div[6].CLK
+clk => clk_div[7].CLK
+clk => clk_div[8].CLK
+clk => clk_div[9].CLK
+clk => clk_div[10].CLK
+clk => clk_div[11].CLK
+clk => clk_div[12].CLK
+clk => clk_div[13].CLK
+clk => clk_div[14].CLK
+clk => clk_div[15].CLK
+clk => clk_div[16].CLK
+clk => clk_div[17].CLK
+clk => clk_div[18].CLK
+clk => clk_div[19].CLK
+clk => clk_div[20].CLK
+clk => clk_div[21].CLK
+btn => led.OUTPUTSELECT
+led <= led.DB_MAX_OUTPUT_PORT_TYPE
+
+

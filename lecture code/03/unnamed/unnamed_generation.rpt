@@ -1,0 +1,29 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate /home/yauheni/autumn/03_prod/unnamed.qsys --block-symbol-file --output-directory=/home/yauheni/autumn/03_prod/unnamed --family="Cyclone IV E" --part=EP4CE6E22C8
+Progress: Loading 03_prod/unnamed.qsys
+Progress: Reading input file
+Progress: Adding serial_flash_loader_0 [altera_serial_flash_loader 18.1]
+Progress: Parameterizing module serial_flash_loader_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate /home/yauheni/autumn/03_prod/unnamed.qsys --synthesis=VERILOG --output-directory=/home/yauheni/autumn/03_prod/unnamed/synthesis --family="Cyclone IV E" --part=EP4CE6E22C8
+Progress: Loading 03_prod/unnamed.qsys
+Progress: Reading input file
+Progress: Adding serial_flash_loader_0 [altera_serial_flash_loader 18.1]
+Progress: Parameterizing module serial_flash_loader_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: unnamed: Generating unnamed "unnamed" for QUARTUS_SYNTH
+Info: serial_flash_loader_0: generating top-level entity altera_serial_flash_loader
+Info: serial_flash_loader_0: "unnamed" instantiated altera_serial_flash_loader "serial_flash_loader_0"
+Info: unnamed: Done "unnamed" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
