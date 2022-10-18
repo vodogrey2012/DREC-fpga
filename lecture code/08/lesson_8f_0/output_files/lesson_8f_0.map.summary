@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Oct 26 17:20:45 2021
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : lesson_8f_0
+Top-level Entity Name : lesson_8f_0
+Family : Cyclone IV E
+Total logic elements : 1,776
+    Total combinational functions : 1,742
+    Dedicated logic registers : 50
+Total registers : 50
+Total pins : 14
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
